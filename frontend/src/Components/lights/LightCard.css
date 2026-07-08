@@ -1,0 +1,25 @@
+.card.light-card {
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(2, 2, 2, 0.3);
+}
+
+.card.bg-purple {
+  background: linear-gradient(145deg, #5514e1b2, #1488e1b2);
+  box-shadow: 0 10px 20px rgba(17, 17, 18, 0.3);
+  transition: all 0.5s ease !important;
+}
+
+.card.bg-pink
+{
+  background: linear-gradient(145deg, #da14e1b2, #e114b8b2);
+  box-shadow: 0 10px 20px rgba(17, 17, 18, 0.3);
+  transition: all 0.5s ease !important;
+}
+
+.light-card.back-white {
+  background: linear-gradient(145deg, #ffffff, #ffffff);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3);
+  transition: all 1s ease !important;
+}

@@ -1,0 +1,45 @@
+.dht22-card {
+  max-width: 520px;
+  border-radius: 14px;
+}
+
+.dht22-alert {
+  border-radius: 12px;
+}
+
+.dht22-metric {
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.dht22-value {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-top: 6px;
+}
+
+.dht22-unit {
+  font-size: 1rem;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.dht22-dotline {
+  display: inline-flex;
+  align-items: center;
+}
+
+.dht22-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(108, 117, 125, 0.5);
+  box-shadow: 0 0 0 0 rgba(25, 135, 84, 0.0);
+  transition: box-shadow 200ms ease, background-color 200ms ease;
+}
+
+.dht22-dot.is-on {
+  background: rgba(25, 135, 84, 0.85);
+  box-shadow: 0 0 0 6px rgba(25, 135, 84, 0.12);
+}

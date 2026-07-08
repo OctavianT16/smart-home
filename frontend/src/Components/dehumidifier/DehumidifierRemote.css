@@ -1,0 +1,350 @@
+.dehumidifier-card {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 48px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #ffffff 0%, #f8fbff 55%, #eaf3ff 100%);
+  box-shadow: 0 22px 55px rgba(15, 23, 42, 0.14);
+  border: 1px solid rgba(214, 226, 241, 0.9);
+  color: #001433;
+}
+
+.dehumidifier-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.dehumidifier-device-icon {
+  width: 82px;
+  height: 82px;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #ffffff, #edf4ff);
+  box-shadow: 0 12px 32px rgba(64, 96, 135, 0.16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dehumidifier-drop {
+  width: 34px;
+  height: 34px;
+  border-radius: 14px;
+  background: #e8efff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.dehumidifier-device-icon span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.dehumidifier-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.15;
+  font-weight: 800;
+  color: #001433;
+}
+
+.dehumidifier-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #53657d;
+}
+
+.dehumidifier-status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.dehumidifier-status-pill.online {
+  background: #dff8e7;
+  color: #008a3d;
+}
+
+.dehumidifier-status-pill.offline {
+  background: #edf2f7;
+  color: #64748b;
+}
+
+.status-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.dehumidifier-power-area {
+  padding-top: 2px;
+}
+
+.dehumidifier-switch {
+  padding-left: 0;
+}
+
+.dehumidifier-switch .form-check-input {
+  width: 78px;
+  height: 38px;
+  margin-left: 0;
+  cursor: pointer;
+  border: none;
+  background-color: #c9d3df;
+  box-shadow: none;
+}
+
+.dehumidifier-switch .form-check-input:checked {
+  background-color: #2563eb;
+}
+
+.dehumidifier-switch .form-check-input:focus {
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.16);
+}
+
+.dehumidifier-switch .form-check-input:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+.dehumidifier-feedback {
+  margin-bottom: 18px;
+}
+
+.dehumidifier-live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 18px;
+  border-radius: 999px;
+  background: #eaf0ff;
+  color: #2454e8;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.dehumidifier-live-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dehumidifier-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.dehumidifier-info-box {
+  min-height: 92px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid #dce6f2;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.06);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.metric-icon {
+  width: 43px;
+  height: 43px;
+  border-radius: 16px;
+  background: #e9efff;
+  color: #2563eb;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.metric-label {
+  display: block;
+  color: #53657d;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.dehumidifier-info-box strong {
+  font-size: 22px;
+  color: #001433;
+}
+
+.dehumidifier-control-panel {
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.58);
+  border: 1px solid #dce6f2;
+  padding: 28px 22px;
+}
+
+.control-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 22px;
+}
+
+.control-panel-header h5 {
+  margin: 0 0 6px;
+  font-size: 19px;
+  font-weight: 850;
+}
+
+.control-panel-header p {
+  margin: 0;
+  color: #53657d;
+  font-size: 14px;
+}
+
+.control-section {
+  border-radius: 20px;
+  background: rgba(248, 251, 255, 0.9);
+  border: 1px solid #e0e8f3;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+.section-label {
+  color: #53657d;
+  font-size: 13px;
+  font-weight: 850;
+  margin-bottom: 10px;
+}
+
+.segmented-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background: #edf3fb;
+  padding: 7px;
+  border-radius: 20px;
+}
+
+.segmented-control button {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 16px;
+  background: transparent;
+  color: #53657d;
+  font-weight: 800;
+  transition: 0.18s ease;
+}
+
+.segmented-control button:hover:not(:disabled) {
+  background: #6fabff9c;
+}
+
+.segmented-control button.active {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.28);
+}
+
+.segmented-control button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.timer-control button {
+  min-width: 64px;
+}
+
+.humidity-value {
+  color: #001433;
+  font-size: 20px;
+}
+
+.dehumidifier-range {
+  cursor: pointer;
+}
+
+.dehumidifier-range:disabled {
+  cursor: not-allowed;
+}
+
+.apply-button {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  padding: 12px 16px;
+  background: #2563eb;
+  color: white;
+  font-weight: 850;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.24);
+}
+
+.apply-button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.apply-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.dehumidifier-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 28px;
+  color: #53657d;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.dehumidifier-footer strong {
+  color: #001433;
+}
+
+@media (max-width: 992px) {
+  .dehumidifier-card {
+    padding: 32px;
+  }
+
+  .dehumidifier-metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .dehumidifier-card {
+    padding: 24px;
+    border-radius: 22px;
+  }
+
+  .dehumidifier-header {
+    flex-direction: column;
+  }
+
+  .dehumidifier-metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dehumidifier-title {
+    font-size: 24px;
+  }
+
+  .dehumidifier-switch .form-check-input {
+    width: 68px;
+    height: 34px;
+  }
+}
